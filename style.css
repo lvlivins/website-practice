@@ -53,6 +53,9 @@ svg:hover {
   letter-spacing: 0%;
   color: #FFFFFF;
 }
+.top__title_mob {
+  display: none;
+}
 .top__text {
   font-size: 24px;
   font-weight: 400;
@@ -60,10 +63,12 @@ svg:hover {
   margin-bottom: 16px;
   color: #FFFFFF;
 }
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
+
 .header {
   min-height: 76px;
   display: flex;
@@ -210,10 +215,12 @@ svg:hover {
   background-color: #000000;
   color: #F7F6F6;
 }
+
 .logo {
   width: 198px;
   height: 44px;
 }
+
 .catalog-link {
   font-size: 16px;
   font-weight: 400;
@@ -229,6 +236,7 @@ svg:hover {
   text-decoration: none;
   color: #888888;
 }
+
 .for {
   padding-top: 64px;
 }
@@ -278,12 +286,14 @@ svg:hover {
 .for__product_big {
   grid-column: span 6;
 }
+
 .product-box {
-    padding-top: 64px;
+  padding-top: 64px;
 }
 .product-box_var {
-    padding-top: 72px;
+  padding-top: 72px;
 }
+
 .product-title {
   font-weight: 600;
   font-size: 48px;
@@ -291,6 +301,11 @@ svg:hover {
   margin-bottom: 32px;
   color: #000000;
 }
+
+.product-title_catalog {
+  margin-bottom: 37px;
+}
+
 .product-content {
   display: flex;
   flex-wrap: wrap;
@@ -298,6 +313,15 @@ svg:hover {
        column-gap: 32px;
   row-gap: 48px;
 }
+
+.product-content-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 37px;
+}
+
 .product {
   width: 378px;
   display: flex;
@@ -337,15 +361,18 @@ svg:hover {
   text-decoration-line: line-through;
   color: #888888;
 }
+
 .link-box {
-  padding-top: 32px;
+  padding-top: 37px;
   padding-bottom: 64px;
 }
+
 .bottom {
   background: #F7F6F6;
   padding-top: 32px;
-  padding-bottom: 58px;
+  padding-bottom: 59px;
 }
+
 .footer {
   flex-wrap: wrap;
   display: flex;
@@ -460,6 +487,7 @@ svg:hover {
   background-color: #000000;
   color: #F7F6F6;
 }
+
 .top-catalog {
   height: 400px;
   background-image: url(images/topback_catalog.jpeg);
@@ -468,6 +496,7 @@ svg:hover {
   margin-top: 128px;
   margin-bottom: 126px;
 }
+
 .top-box {
   display: flex;
   justify-content: space-between;
@@ -477,6 +506,7 @@ svg:hover {
   align-items: center;
   position: relative;
 }
+
 .top-nav {
   display: flex;
   gap: 10px;
@@ -492,9 +522,11 @@ svg:hover {
 .top-nav__link:hover {
   text-decoration: underline;
 }
+
 fieldset {
   border: none;
 }
+
 input[type=radio] {
   display: none;
 }
@@ -504,6 +536,7 @@ input[type=radio] + label {
   padding-left: 29px;
   cursor: pointer;
 }
+
 input[type=radio] + label::before {
   content: "";
   position: absolute;
@@ -516,6 +549,7 @@ input[type=radio] + label::before {
   border-radius: 50%;
   background: transparent;
 }
+
 input[type=radio]:checked + label::after {
   content: "";
   background: url(images/Vector1.svg);
@@ -531,23 +565,28 @@ input[type=radio]:checked + label::after {
   border: 1px solid #000000;
   border-radius: 50%;
 }
+
 input[type=checkbox]#filterBlack:checked + label::after {
   filter: invert(100%);
   border-color: white;
 }
+
 input[type=checkbox]#filterDarkblue:checked + label::after {
   filter: invert(100%);
   border-color: white;
 }
+
 input[type=checkbox] {
   display: none;
 }
+
 input[type=checkbox] + label {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
   position: relative;
 }
+
 input[type=checkbox] + label::before {
   content: "";
   position: absolute;
@@ -558,6 +597,7 @@ input[type=checkbox] + label::before {
   height: 15px;
   border: 1px solid #C4C4C4;
 }
+
 input[type=checkbox]:checked + label::after {
   content: "";
   background: url(images/Vector1.svg);
@@ -572,6 +612,7 @@ input[type=checkbox]:checked + label::after {
   transform: translateY(-50%);
   border: 1px solid #000000;
 }
+
 .range input[type=range] {
   width: 100%;
   height: 0;
@@ -581,11 +622,13 @@ input[type=checkbox]:checked + label::after {
   position: absolute;
   pointer-events: none;
 }
+
 input[type=range]::-webkit-slider-runnable-track {
   border: 1px solid #000000;
   height: 0;
   background-color: #000000;
 }
+
 input[type=range]::-webkit-slider-thumb {
   background: #000000;
   border: 1px solid #000000;
@@ -597,14 +640,17 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -4px;
   pointer-events: auto;
 }
+
 .range {
   position: relative;
   width: 200px;
   height: 8px;
 }
+
 .dropdown__box.show {
   display: grid;
 }
+
 .dropdown {
   display: flex;
   flex-direction: row;
@@ -732,6 +778,7 @@ input[type=range]::-webkit-slider-thumb {
   background-color: #000000;
   color: #F7F6F6;
 }
+
 .checkmark {
   width: 15px;
   height: 15px;
@@ -789,6 +836,7 @@ input[type=range]::-webkit-slider-thumb {
   position: relative;
   display: inline-block;
 }
+
 .product__vector-box {
   position: absolute;
   top: 10px;
@@ -799,9 +847,11 @@ input[type=range]::-webkit-slider-thumb {
   display: flex;
   gap: 25px;
 }
+
 .product__image-box:hover .product__vector-box {
   opacity: 1;
 }
+
 .top-cart {
   height: 400px;
   background-image: url(images/topback_cart.jpeg);
@@ -810,6 +860,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: 128px;
   margin-bottom: 126px;
 }
+
 .cart {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -981,6 +1032,7 @@ input[type=range]::-webkit-slider-thumb {
   background-color: #000000;
   color: #F7F6F6;
 }
+
 .arrow {
   font-family: inherit;
   width: 44px;
@@ -1003,6 +1055,11 @@ input[type=range]::-webkit-slider-thumb {
     height: 268px;
   }
   .product-content {
+    -moz-column-gap: 29px;
+         column-gap: 29px;
+    row-gap: 38px;
+  }
+  .product-content-catalog {
     -moz-column-gap: 29px;
          column-gap: 29px;
     row-gap: 39px;
@@ -1114,10 +1171,17 @@ input[type=range]::-webkit-slider-thumb {
     align-items: center;
   }
   .top__title {
+    display: none;
+  }
+  .top__title_mob {
+    display: block;
     font-size: 48px;
     font-weight: 600;
+    line-height: 59px;
     text-align: center;
     margin-top: 29px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
   }
   .top__text {
     font-size: 16px;
@@ -1152,9 +1216,6 @@ input[type=range]::-webkit-slider-thumb {
   }
   .product-box {
     padding-top: 32px;
-  }
-  .product-box_var {
-    padding-top: 36px;
   }
   .product-content {
     row-gap: 32px;
