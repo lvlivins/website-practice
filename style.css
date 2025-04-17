@@ -314,7 +314,7 @@ svg:hover {
   row-gap: 48px;
 }
 
-.product-content-catalog {
+.product-content_catalog {
   display: flex;
   flex-wrap: wrap;
   -moz-column-gap: 32px;
