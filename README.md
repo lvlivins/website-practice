@@ -1,2 +1,2 @@
-# website-practice.github.io
+# website-practice
 Вёрстка проекта в рамках обучения
