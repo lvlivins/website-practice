@@ -319,7 +319,7 @@ svg:hover {
   flex-wrap: wrap;
   -moz-column-gap: 32px;
        column-gap: 32px;
-  row-gap: 37px;
+  row-gap: 45px;
 }
 
 .product {
