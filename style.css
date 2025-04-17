@@ -285,7 +285,7 @@ svg:hover {
 }
 
 .product-box {
-  padding-top: 64px;
+  padding-top: 72px;
 }
 
 .product-title {
@@ -1288,4 +1288,3 @@ input[type=range]::-webkit-slider-thumb {
   .cart__form-box {
     max-width: 376px;
   }
-}/*# sourceMappingURL=style.css.map */
