@@ -988,7 +988,8 @@ input[type=range]::-webkit-slider-thumb {
 .cart__form-text :hover,
 .cart__form-text :focus {
   outline: 0;
-  outline-offset: 0; /* контур прилегает к границе - для более точного позиционирования */
+  outline-offset: 0;
+  /* контур прилегает к границе - для более точного позиционирования */
 }
 .cart__form {
   border: none;
@@ -1041,6 +1042,16 @@ input[type=range]::-webkit-slider-thumb {
 .cart__sum-approve:hover {
   background-color: #000000;
   color: #F7F6F6;
+}
+
+.top__title-cart {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 127px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  text-align: left;
 }
 
 .arrow {
@@ -1286,9 +1297,13 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 14px;
     line-height: 14px;
   }
-  .top-cart__title {
+  .top__title-cart_var {
     margin-top: 82px;
     margin-bottom: 0px;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: center;
   }
   .cart {
     display: flex;
