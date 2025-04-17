@@ -507,6 +507,16 @@ svg:hover {
   position: relative;
 }
 
+.top__title-catalog {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 127px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  text-align: left;
+}
+
 .top-nav {
   display: flex;
   gap: 10px;
@@ -1243,7 +1253,7 @@ input[type=range]::-webkit-slider-thumb {
     margin-bottom: 32px;
     gap: 14px;
   }
-  .top-catalog__title {
+  .top__title-catalog_var {
     margin-top: 82px;
     margin-bottom: 0px;
   }
